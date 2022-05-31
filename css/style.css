@@ -59,7 +59,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 66px;
     margin: auto auto;
-    background-image: url(../img/logo.png);
+    background-image: url(../logo.png);
     background-size: 35%;
     background-repeat: no-repeat;
 
@@ -148,7 +148,7 @@ footer .info p {
 }
 
 footer .info .block1 {
-    background-image: url(../img/img1.png);
+    background-image: url(../img1.png);
     background-color: darkgrey;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ footer .info .block1:hover {
 }
 
 footer .info .block2 {
-    background-image: url(../img/img2.png);
+    background-image: url(../img2.png);
     background-color: darkgrey;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ footer .info .block2:hover {
 }
 
 footer .info .block3 {
-    background-image: url(../img/img3.png);
+    background-image: url(../img3.png);
     background-color: darkgrey;
     background-size: 100px 100px;
     background-repeat: no-repeat;
