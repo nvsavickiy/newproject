@@ -1,45 +1,93 @@
 body {
-    margin: 2x;
-    background-color: lightgray;
-    background-size: auto;
+    margin: 0px;
+    background: #b5bdc8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
+    /* IE6-9 */
+
 }
 
-.nav .navigation #menu {
+.header {
+    background-color: cadetblue;
+    box-sizing: border-box;
+    box-shadow: 0 0 13px 6px;
+}
+
+.header .header_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+header .header_logo {
+    margin-left: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header .header_logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header .header_menu {
+    display: flex;
+    margin-left: 160px;
+}
+
+header .header_box .header_menu #menu {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.nav .navigation #menu li {
+header .header_box #menu li {
     display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.nav .navigation #menu {
-    width: 1131px;
-    height: 50px;
-    margin-left: 377px;
+header .header_box #menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid gray;
-    background-color: gray;
-    border-radius: 20px;
 }
 
-.nav .navigation #menu a {
+header .header_box #menu a {
     color: #fff;
-    padding: 17px 50px;
+    padding: 27px 50px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     width: 100px;
 }
 
-.nav .navigation #menu a:hover {
-    border-radius: 20px;
+header .header_box #menu a:hover {
     background-color: snow;
     color: black;
     text-align: center;
+    box-shadow: 0 0 1px 1px white;
+}
+
+.header .header_box .social {
+    color: white;
+    margin-left: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .main {
@@ -49,43 +97,46 @@ body {
 }
 
 .main .content {
-    border-bottom: 2px solid gray;
+    box-shadow: 0 0 5px 2px;
+    background-color: cadetblue;
 }
 
 .main article .block {
-    width: 100%;
-    box-sizing: border-box;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 66px;
-    margin: auto auto;
-    background-image: url(../logo.png);
-    background-size: 35%;
-    background-repeat: no-repeat;
 
+    display: flex;
+    position: relative;
+}
+
+.main article .block .image {
+
+    margin-bottom: -5px;
+    margin-left: -2px;
 }
 
 .main article .block .text {
-    width: 600px;
-    margin-left: 400px;
+    max-width: 500px;
+    margin-left: 150px;
+    margin-top: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main article .block .text h1 {
-    font-size: 23px;
-    color: rgb(134, 113, 58);
+    font-size: 30px;
+    color: black;
     margin-bottom: 10px;
+    margin-top: 1px;
 }
 
-.main article .block .text p {
+.main article .block .text p.text1 {
+    font-style: italic;
     font-size: 17px;
-    color: brown
+    color: black;
 }
 
 .main article .block .text .button {
     width: 150px;
     height: 40px;
-    background-color: orange;
+    background-color: black;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -94,6 +145,7 @@ body {
 
 .main article .block .text .button a {
     color: white;
+    text-decoration: none;
 }
 
 .main article .block .text .button a:hover {
@@ -104,7 +156,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    box-shadow: 0 0 5px 2px white;
 }
 
 .main .quote {
@@ -116,18 +168,19 @@ body {
     margin: 20px 0 10px 0;
     font-size: 30px;
     text-transform: uppercase;
-    color: rgb(134, 113, 58);
+    color: black;
+    font-weight: bold;
 }
 
 .main .quote .contents #quote {
     padding: 20px 20%;
     font-size: 15px;
     font-style: italic;
-    color: brown;
+    color: black;
     display: block;
 }
 
-footer .info {
+footer .info1 {
     display: inline-flex;
     width: 100%;
     padding: 10px 20%;
@@ -136,52 +189,125 @@ footer .info {
     text-align: center;
 }
 
-footer .info h2 {
+footer .info1 h2 {
     font-size: 20px;
-    color: rgb(134, 113, 58);
+    color: black;
     margin-top: 100px;
 }
 
-footer .info p {
+footer .info1 p {
     font-size: 15px;
-    color: brown;
+    color: black;
 }
 
-footer .info .block1 {
+footer .info1 .block1 {
     background-image: url(../img1.png);
-    background-color: darkgrey;
+    background-color: cadetblue;
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: top;
     margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
 }
 
-footer .info .block1:hover {
+footer .info1 .block1:hover {
     background-color: #fff;
 }
 
-footer .info .block2 {
+footer .info1 .block2 {
     background-image: url(../img2.png);
-    background-color: darkgrey;
+    background-color: cadetblue;
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: top;
     margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
 }
 
-footer .info .block2:hover {
+footer .info1 .block2:hover {
     background-color: #fff;
 }
 
-footer .info .block3 {
+footer .info1 .block3 {
     background-image: url(../img3.png);
-    background-color: darkgrey;
+    background-color: cadetblue;
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: top;
     margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
 }
 
-footer .info .block3:hover {
+footer .info1 .block3:hover {
     background-color: #fff;
+}
+
+footer .info2 {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+footer .info2 h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+
+footer .info2 p {
+    font-size: 15px;
+    color: black;
+}
+
+footer .info2 .block4 {
+    background-image: url(../img3.png);
+    background-color: cadetblue;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
+}
+
+footer .info2 .block4:hover {
+    background-color: #fff;
+}
+
+footer .info2 .block5 {
+    background-image: url(../img1.png);
+    background-color: cadetblue;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
+}
+
+footer .info2 .block5:hover {
+    background-color: #fff;
+}
+
+footer .info2 .block6 {
+    background-image: url(../img2.png);
+    background-color: cadetblue;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-right: 10px;
+    box-shadow: 0 0 5px 2px;
+}
+
+footer .info2 .block6:hover {
+    background-color: #fff;
+}
+
+.contacts {
+    width: 100%;
+    height: 90px;
+    background-color: cadetblue;
+    box-shadow: 0 0 13px 6px;
 }
