@@ -1,109 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>My first web site</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <header class="header">
-        <div class="header_box">
-            <div class="header_logo">
-                <a href="#">
-                    <p>Тут скоро будет лого =)</p>
-                </a>
-            </div>
-            <div class="header_menu">
-                <ul id="menu">
-                    <li><a href="#">Cсылка 1</a></li>
-                    <li><a href="#">Ссылка 2</a></li>
-                    <li><a href="#">Ссылка 3</a></li>
-                    <li><a href="#">Ссылка 4</a></li>
-                    <li><a href="#">Ссылка 5</a></li>
-                </ul>
-            </div>
-            <div class="social">
-                SOCIAL
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="content">
-            <article>
-                <div class="block">
-                    <div class="image">
-                        <img src="./logo.png" alt="Тут была картинка :)" width="300" height="300"
-                            hspace="0" />
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__row">
+                <div class="header__nav">
+                    <div class="header__logo"><img class="logo" src="./img/logo.png"></div>
+                    <div class="header__menu">
+                        <div class="header__link1"><a href='#'>Услуги</a></div>
+                        <div class="header__link2"><a href='#'>Наши объекты</a></div>
+                        <div class="header__link3"><a href='#'>Новости</a></div>
+                        <div class="header__link4"><a href='#'>Контакты</a></div>
                     </div>
-                    <div class="text">
-                        <h1>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </h1>
-                        <p class="text1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores nostrum sint
-                            aspernatur dignissimos repellendus qui, officiis dolores iure mollitia?Lorem ipsum dolor
-                            sit amet, consectetur adipisicing elit. Amet asperiores nostrum sint
-                            dolores iure mollitia?
-                        </p>
-                        <p class="button">
-                            <a href="#">READ MORE >></a>
-                        </p>
+                    <div class="header__social">
+                        <a href="#"><img src="./img/tg.svg" class="header__social_img" /></a>
+                        <a href="#"><img src="./img/vk.svg" class="header__social_img" /></a>
+                        <a href="#"><img src="./img/ok.svg" class="header__social_img" /></a>
+                    </div>
+                    <div class="header__phone"> +7 (4912) 42-70-07</div>
+                </div>
+            </div>
+            <div class="header__text">
+                <div class="header__title">
+                    <h1>Качественные <br>
+                        дороги родному городу!</h1>
+                </div>
+                <div class="header__text_row">
+                    <div class="header__text-item">ООО «ТехноГрупп» — многофункциональная компания. <br>
+                        Мы специализируемся на работах, связанных с дорогами<br>
+                        и жилищно-коммунальным хозяйством Рязани.
+                    </div>
+                    <div class="header__text-item">Мы строим дороги более 10 лет. Многолетний опыт<br>
+                        и современные технологии позволяют нам работать<br>
+                        быстро и качественно.</div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main class="main">
+        <div class="about">
+            <div class="about__row">
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__icon"><img src="./img/about1.svg" /></div>
+                        <div class="item-about__text"><p>50<br>
+                             отремонтированных<br>
+                              дорог в Рязани</p></div>
                     </div>
                 </div>
-            </article>
-        </section>
-
-        <section class="quote">
-            <div class="contents">
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur.
-                </p>
-                <p id="quote">
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda cupiditate
-                    animipsum dolor sit amet psum dolor sit amet psum dolor sit amet"
-                </p>
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__icon"><img src="./img/about2.svg" /></div>
+                        <div class="item-about__text"><p>100 единиц<br>
+                             техники</p></div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__icon"><img src="./img/about3.svg" /></div>
+                        <div class="item-about__text"><p>50<br>
+                             объектов</p></div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__icon"><img src="./img/about4.svg" /></div>
+                        <div class="item-about__text"><p>200<br>
+                             сотрудников</p></div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
     </main>
-    <footer class="footer">
-        <div class="info1">
-            <div class="block1">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur!</p>
-            </div>
-            <div class="block2">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repudiandae.
-            </div>
-            <div class="block3">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsum ipsum elit.</p>
-            </div>
-        </div>
-        <div class="info2">
-            <div class="block4">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur!</p>
-            </div>
-            <div class="block5">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repudiandae.
-            </div>
-            <div class="block6">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsum ipsum elit.</p>
-            </div>
-        </div>
-        </div>
-
-        <div class="contacts">
-
-        </div>
-    </footer>
 </body>
-
 </html>
