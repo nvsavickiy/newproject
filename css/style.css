@@ -188,7 +188,7 @@ body {
     margin: 0 122px;
 }
 
-.services .services__title {
+.services .services__title h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -199,7 +199,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 16px;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .services__container-1_item-1 {
@@ -256,6 +256,7 @@ body {
 
 .services__container-2_item-7 {
     position: relative;
+    
 }
 
 .container_text {
