@@ -186,9 +186,10 @@ body {
 
 .services {
     margin: 0 122px;
+    padding-bottom: 100px;
 }
 
-.services .services__title h2{
+.section__title h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -256,7 +257,7 @@ body {
 
 .services__container-2_item-7 {
     position: relative;
-    
+
 }
 
 .container_text {
@@ -296,6 +297,131 @@ body {
 
 .services__container-2_item-3 {
     grid-column: 3/5;
+}
+
+.objects {
+    margin: 0 122px;
+}
+
+.object_container {
+    display: flex;
+    margin-bottom: 74px;
+    margin-top: 24px;
+}
+
+.object_container p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.object__box-1 {
+    margin-right: 26px;
+}
+
+.object__box-2 {
+    margin-right: 26px;
+}
+
+.object__box-img {
+    margin-bottom: 32px;
+
+}
+
+.object__distance {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 16px;
+}
+
+.object__time {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 16px;
+}
+
+.object__location {
+    display: flex;
+    margin-left: 35px;
+}
+
+.object__distance-icon {
+    margin-right: 13px;
+}
+
+.object__time-icon {
+    margin-right: 16px;
+}
+
+.object__location-icon {
+    margin-right: 15px;
+}
+
+.object__distance-icon-2 {
+    position: absolute;
+    margin-left: 328px;
+    margin-top: 16px;
+}
+
+.object__distance-icon-3 {
+    position: absolute;
+    margin-left: 305px;
+    margin-top: 16px;
+}
+
+.object__box-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 104px;
+}
+
+.object__box-button-item {
+    padding: 19px 59px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: #FF5C51;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.object__box-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.object__box-button a:hover {
+    color: black;
+}
+
+.partners {
+    margin: 0 122px;
+    padding-top: 96px;
+}
+
+.partners__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 90px;
+}
+
+.sertificates {
+    margin: 0 122px;
+    padding-top: 80px;
+}
+
+.sertificates__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 135px;
+    margin: 0 27px;
 }
 
 .footer {
