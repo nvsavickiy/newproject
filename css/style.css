@@ -371,7 +371,6 @@ body {
 .object__box-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 104px;
 }
 
 .object__box-button-item {
