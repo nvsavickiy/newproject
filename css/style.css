@@ -22,12 +22,13 @@ time, mark, audio, video {
 body {
     background-color: #E5E5E5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
     width: 100%;
-    height: 100%;
 }
 
 .wrapper {
-    width: 100%;
     min-width: 1440px;
     height: 800px;
     margin: 0 auto;
@@ -150,8 +151,9 @@ body {
 .about {
     padding-top: 80px;
     padding-bottom: 112px;
-    margin: 0 auto;
-    width: 1440px;
+    /* margin: 0 auto; */
+    /* width: 1440px; */
+    width: 100%;
 }
 
 .about__row {
@@ -159,27 +161,19 @@ body {
     width: 1196px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     border-radius: 11px;
     background: white;
+
 }
 
 .about__column1 {
     padding-left: 80px;
-    margin-right: 32px;
-}
-
-.about__column2 {
-    margin-right: 51px;
-}
-
-.about__column3 {
-    margin-right: 51px;
 }
 
 .about__column4 {
-    margin-right: 51px;
+    padding-right: 80px;
 }
 
 .item-about {
@@ -201,11 +195,7 @@ body {
 .services {
     padding-bottom: 100px;
     margin: 0 auto;
-    width: 1440px;
-}
-
-.section__title {
-    margin-left: 122px;
+    width: 100%;
 }
 
 .section__title h2 {
@@ -323,17 +313,21 @@ body {
     grid-column: 3/5;
 }
 
+.objects__section {
+    width: 100%;
+}
+
 .objects {
     position: relative;
     height: 408px;
     width: 1440px;
-    margin: 0 auto;
     padding-bottom: 104px;
+    margin: 0 auto;
 }
 
-.objects .section__title {
-    margin-left: 122px;
+.section__title {
     margin-bottom: 24px;
+
 }
 
 .swiper__object {
@@ -342,15 +336,17 @@ body {
 
 .object__container .swiper__object {
     position: static;
-    height: 408px;
     width: 1206px;
 }
 
+.object__container .swiper-wrapper {
+    height: 408px;
+}
 .swiper__object .swiper-button-next-1 {
 
     background: url(../img/next1.png) no-repeat;
     width: 50px;
-    height: 50px;
+
 
 }
 
@@ -378,12 +374,14 @@ body {
     margin-right: 26px;
     background: white;
     border-radius: 12px;
+
 }
 
 .swiper__slide-2 {
     margin-right: 26px;
     background: white;
     border-radius: 12px;
+
 }
 
 .swiper__slide-3 {
@@ -487,6 +485,10 @@ body {
     color: black;
 }
 
+.partners__section {
+    width: 100%;
+}
+
 .partners {
     margin: 0 auto;
     width: 1380px;
@@ -537,6 +539,10 @@ body {
     display: none;
 }
 
+.sertificates_section {
+    width: 100%;
+}
+
 .sertificates {
     position: relative;
     height: 408px;
@@ -584,18 +590,17 @@ body {
 }
 
 .footer {
-    background: #252525;
     width: 100%;
-    min-width: 1440px;
-    height: 246px;
 }
 
 .footer__item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    min-width: 1440px;
+    height: 246px;
     margin: 0 auto;
+    background: #252525;
 }
 
 .footer__info {
@@ -649,4 +654,99 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .header__link1 {
+        margin-left: 38px;
+        width: 80px;
+    }
+
+    .header__link2 {
+        margin-left: 20px;
+        width: 188px;
+    }
+
+    .header__link3 {
+        margin-left: 8px;
+        width: 93px;
+    }
+
+    .header__link4 {
+        margin-left: 20px;
+        width: 110px;
+    }
+
+}
+@media screen and (max-width: 1420px) {
+    .objects {
+        width: 1000px; 
+    } 
+
+    .object__container .swiper {
+    width: 800px; 
+    }
+/* .object__container .swiper__object {
+    height: auto;
+} */
+
+}
+
+@media screen and (max-width: 1199px) {}
+
+
+
+@media screen and (max-width: 991px) {
+    .objects {
+    width: 650px; 
+} 
+.object__container .swiper {
+width: 380px; 
+}
+
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 576px) {
+    .objects {
+        width: 550px; 
+    } 
+    .object__container .swiper {
+    width: 380px; 
+    }
+    .about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about__row {
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10%;
+        margin: 0 auto;
+    }
+
+    .about__column1 {
+        width: 300px;
+        padding-left: 0;
+    }
+
+    .about__column2 {
+        width: 300px;
+    }
+
+    .about__column3 {
+        width: 300px;
+    }
+
+    .about__column4 {
+        width: 300px;
+        padding-right: 0;
+    }
 }
