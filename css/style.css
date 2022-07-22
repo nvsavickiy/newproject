@@ -928,6 +928,9 @@ body {
         justify-content: center;
         flex-direction: column;
     }
+    .about .item-about {
+        padding-left: 30px;
+    }
 
     .about__column1 {
         width: 300px;
@@ -1048,6 +1051,9 @@ body {
         justify-content: center;
         flex-direction: column;
     }
+    .about .item-about {
+        padding-left: 35px;
+    }
 
     .objects {
         width: 550px;
@@ -1149,6 +1155,9 @@ body {
         max-width: 480px;
         min-width: 320px;
     }
+    .about .item-about {
+        padding-left: 30px;
+    }
 
     .objects {
         width: 400px;
@@ -1236,6 +1245,10 @@ body {
         left: 131px;
         top: 515px;
     }
+
+    .about .item-about {
+        padding-left: 20px;
+}
 
     .objects .swiper-wrapper {
         padding-bottom: 30px;
