@@ -1251,7 +1251,7 @@ body {
     }
 
     .partners__container .swiper-button-next-2 {
-        right: 1px;
+        right: -25px;
         top: 85px;
     }
 
