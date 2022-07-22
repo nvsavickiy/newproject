@@ -594,6 +594,14 @@ body {
     width: 100%;
 }
 
+.footer_mob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
 .footer__item {
     display: flex;
     justify-content: center;
@@ -675,23 +683,23 @@ body {
     }
 
     .header__link1 {
-        margin-left: 30px;
+        margin-left: 28px;
     }
 
     .header__link2 {
-        margin-left: 16px;
+        margin-left: 15px;
     }
 
     .header__link3 {
-        margin-left: 5px;
+        margin-left: 4px;
     }
 
     .header__link4 {
-        margin-left: 20px;
+        margin-left: 18px;
     }
 
     .header__social {
-        margin-left: 20px;
+        margin-left: 17px;
     }
 
     .header__social_img {
@@ -782,6 +790,15 @@ body {
         padding-right: 0px;
     }
 
+
+
+
+    .services__container-1 {
+        gap: 0;
+    }
+    .services__container-2 {
+        gap: 0;
+    }
     .partners {
         width: 900px;
     }
@@ -813,6 +830,44 @@ body {
 
 
 @media screen and (max-width: 991px) {
+
+    .wrapper {
+        height: 480px;
+    }
+    .header__row {
+        height: auto;
+    }
+.header__text {
+    max-width: 991px;
+}
+.header__title {
+    font-size: 28px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+.header__text-item {
+    font-size: 13px;
+    margin-left: 50px;
+    margin-right: 66px;
+}
+    .header__menu {
+    display: none;
+}
+
+    .header__social {
+    display: none; 
+}
+
+.header__phone {
+    display: none; 
+}
+.header__logo {
+    margin: 40px 0 0 50px;
+}
+
+.about {
+    padding-top: 50px;
+}
     .objects {
         width: 650px;
     }
@@ -820,6 +875,34 @@ body {
     .object__container .swiper {
         width: 380px;
     }
+
+
+    .footer .footer__item {
+        max-width: 991px;
+        min-width: 767px;
+    }
+    .footer__info {
+        padding-top: 35px;
+    }
+
+    .footer__social {
+        padding-left: 30px;
+    }
+    .footer__social a {
+        width: 45px;
+        height: 45px;
+    }
+    .footer__contact {
+
+        padding-left: 15px;
+
+}
+.footer__contact a {
+    height: 45px;
+}
+
+
+
 
 }
 
@@ -836,32 +919,265 @@ body {
 
 
 
+@media screen and (max-width: 767px) {
+
+    .wrapper {
+        height: 370px;
+    }
+    .header__logo {
+        margin: 30px 0 0 40px;
+    }
+    .header__logo img {
+        width: 250px;
+    }
+    .header__text {
+        max-width: 767px;
+    }
+
+    .header__title {
+        font-size: 22px;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+    .header__text-item {
+        font-size: 14px;
+        margin-left: 40px;
+        margin-right: 8px;
+    }
+
+    .header__text-item br {
+        display: none;
+    }
+
+    .about {
+        max-width: 767px;
+        min-width: 576px;
+        margin: 0 auto;
+    }
+
+    .about__row {
+        height: auto;
+        max-width: 767px;
+        min-width: 576px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about__column1 {
+        width: 300px;
+        padding-left: 0;
+    }
+
+    .about__column2 {
+        width: 300px;
+    }
+
+    .about__column3 {
+        width: 300px;
+    }
+
+    .about__column4 {
+        width: 300px;
+        padding-right: 0;
+    }
+
+    .partners {
+        width: 650px;
+    }
+
+    .partners__container .swiper {
+        width: 650px;
+    }
+
+    .partners__container .swiper-button-next-2 {
+        right: 135px;
+    }
+
+    .partners__container .swiper-button-prev-2 {
+        left: 500px;
+    }
+
+    .sertificates {
+        width: 600px;
+    }
+
+    .sertificates__container .swiper {
+        width: 540px;
+    }
+
+    .sertificates .swiper-button-next  {
+        right: -13px;
+
+    }
+    .sertificates .swiper-button-prev {
+        left: -10px;
+
+    }
+
+    .footer .footer__item {
+        max-width: 767px;
+        min-width: 576px;
+    }
+    .footer__info {
+        padding-top: 35px;
+    }
+
+    .footer_mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .footer__social {
+
+        /* padding-left: 30px; */
+        padding-left: 0px;
+    }
+    .footer__social a {
+        width: 45px;
+        height: 45px;
+    }
+    .footer__contact {
+margin-top: 0;
+        padding-left: 0;
+
+}
+.footer__contact a {
+    height: 45px;
+}
 
 
-@media screen and (max-width: 767px) {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 @media screen and (max-width: 576px) {
+    
+    .wrapper {
+        height: 370px;
+    }
+    .header__logo {
+        margin: 15px 0 0 20px;
+    }
+    .header__logo img {
+        width: 220px;
+    }
+    .header__text {
+        max-width: 576px;
+    }
+
+    .header__title {
+        font-size: 20px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .header__text-item {
+        font-size: 11px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .header__text-item br {
+        display: none;
+    }
+    
+    .about {
+        max-width: 576px;
+        min-width: 480px;
+        margin: 0 auto;
+    }
+
+    .about__row {
+        height: auto;
+        max-width: 576px;
+        min-width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .partners {
+        width: 500px;
+    }
+
+    .partners__container .swiper {
+        width: 500px;
+    }
+
+    .partners__container .swiper-button-next-2 {
+        right: 35px;
+    }
+
+    .partners__container .swiper-button-prev-2 {
+        left: 450px;
+    }
+
+    .sertificates {
+        width: 550px;
+    }
+
+    .sertificates__container .swiper {
+        width: 500px;
+    }
+
+ .footer__item {
+        max-width: 576px;
+        min-width: 4680px;
+    }
+    .footer__info {
+        padding-top: 35px;
+        font-size: 16px;
+    }
+
+    .footer_mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .footer__social {
+
+        /* padding-left: 30px; */
+        padding-left: 0;
+    }
+    .footer__social a {
+        width: 40px;
+        height: 40px;
+        
+    }
+    .footer__contact {
+
+font-size: 13px;
+width: 240px;
+margin-top: 0;
+        padding-left: 0;
+}
+.footer__contact a {
+    height: 40px;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .objects {
         width: 550px;
     }
@@ -903,4 +1219,9 @@ body {
         width: 300px;
         padding-right: 0;
     }
+
 }
+@media screen and (max-width: 480px) {
+    
+}
+
