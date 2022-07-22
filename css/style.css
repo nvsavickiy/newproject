@@ -1242,35 +1242,38 @@ body {
     }
 
     .partners {
-        width: 410px;
+        width: 380px;
         padding: 50px 10px 0px;
     }
 
     .partners__container .swiper {
-        width: 300px;
+        width: 280px;
     }
 
     .partners__container .swiper-button-next-2 {
-        right: 15px;
+        right: 1px;
         top: 85px;
     }
 
     .partners__container .swiper-button-prev-2 {
-        left: 330px;
+        left: 325px;
         top: 85px;
     }
 
     .sertificates {
-        width: 410px;
+        width: 400px;
     }
 
     .sertificates__container .swiper {
-        width: 350px;
-        padding-left: 80px;
+        width: 250px;
+        padding-left: 10px;
+    }
+    .sertificates .swiper-slide {
+        padding: 0 0; 
     }
 
     .sertificates .swiper-button-next {
-        right: 15px;
+        right: 25px;
     }
 
     .sertificates .swiper-button-prev {
