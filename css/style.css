@@ -1360,16 +1360,117 @@ body {
 }
 
 
+}
+
+@media screen and (max-width: 410px) {
+
+    .wrapper {
+        height: 350px;
+    }
+
+    .header__logo {
+        margin: 15px 0 0 10px;
+    }
+
+    .header__logo img {
+        width: 220px;
+    }
+
+    .header__text {
+        max-width: 410px;
+    }
+    .header__text_row {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__title {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .header__text-item {
+    padding-top: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+.objects .swiper-button-next {
+    right: 120px;
+    top: 515px;
+}
+
+
+.objects .swiper-button-prev {
+    left: 131px;
+    top: 515px;
+}
 
 
 
+.objects .swiper-wrapper {
+padding-bottom: 30px;
+}
 
+.partners {
+    width: 410px;
+    padding: 50px 10px 0px;
+}
 
-
-
-
-
-
-
+.partners__container .swiper {
+    width: 300px;
+    /* padding-left: 60px; */
 
 }
+
+.partners__container .swiper-button-next-2 {
+    right: 15px;
+    top: 85px;
+}
+
+.partners__container .swiper-button-prev-2 {
+    left: 330px;
+    top: 85px;
+}
+
+.sertificates {
+    width: 410px;
+}
+
+.sertificates__container .swiper {
+    width: 350px;
+    padding-left: 80px;
+}
+
+.sertificates .swiper-button-next {
+    right: 15px;
+}
+
+.sertificates .swiper-button-prev {
+    left: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
