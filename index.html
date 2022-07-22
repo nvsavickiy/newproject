@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </section>
-            <section class="services">
+            <!-- <section class="services">
 
                 <div class="services__section">
                     <div class="section__title">
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section class="objects__section">
 
                 <div class="objects">
@@ -367,6 +367,7 @@
             <a href="#">+7 (4912) 42-70-07</a>
             <a href="#">tehnogrupp62@yandex.ru</a>
         </div>
+        <div class="footer_mob">
         <div class="footer__social">
             <a href="#"><img src="./img/tg-footer.png"></a>
             <a href="#"><img src="./img/vk-footer.png" /></a>
@@ -374,7 +375,7 @@
         </div>
         <div class="footer__contact">
             <a href="#">Заказать обратный звонок</a>
-        </div>
+        </div></div>
     </div>
 </footer>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
@@ -407,11 +408,15 @@
             prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-    // 991-575
+
+    767: {
+      slidesPerView: 2
+    },
+
     1200: {
       slidesPerView: 3
     },
-    // 1419- 991
+
     1419: {
       slidesPerView: 4
     }
@@ -427,12 +432,16 @@
             prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-    // 991-575
+    767: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+
     1200: {
       slidesPerView: 3,
       spaceBetween: 0,
     },
-    // 1419- 991
+
     1419: {
       slidesPerView: 3,
       spaceBetween: 1,
