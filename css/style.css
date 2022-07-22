@@ -1218,7 +1218,7 @@ body {
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 414px) {
     .header__text {
         max-width: 410px;
     }
