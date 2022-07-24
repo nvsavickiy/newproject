@@ -1660,11 +1660,18 @@ body {
         font-size: 15px;
         padding: 10px 39px;
     }
-    .object__box-img img {
+    .object__box-img .box-img {
         width: 310px;
     }
+    .object__distance-icon-2 {
+        margin-left: 250px;
+    }
+
+    .object__distance-icon-3 {
+        margin-left: 220px;
+    }
     .partners {
-        width: 300px;
+        width: 310px;
         padding: 0px 0px 0px 0px;
     }
 
@@ -1676,12 +1683,12 @@ body {
 
     .partners__container .swiper-button-next-2 {
         top: 250px;
-        right: 80px;
+        left: 200px;
     }
 
     .partners__container .swiper-button-prev-2 {
         top: 250px;
-        left: 110px;
+        left: 100px;
     }
 
     .partners__block {
