@@ -1660,7 +1660,9 @@ body {
         font-size: 15px;
         padding: 10px 39px;
     }
-
+    .object__box-img img {
+        width: 310px;
+    }
     .partners {
         width: 300px;
         padding: 0px 0px 0px 0px;
